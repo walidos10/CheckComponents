@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  font-style: italic;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +41,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid rgb(228, 223, 223);
+  margin: 50px;
 }
